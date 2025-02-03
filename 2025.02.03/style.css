@@ -1,0 +1,21 @@
+#sekcja1{
+    width: 800px;
+    height: 600px;
+    float: left;
+    background-color: red;
+    border: 5px solid blue;
+}
+#sekcja2{
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    border: 5px dashed lightcoral;
+    float: left;
+}
+#sekcja3{
+    width: 400px;
+    height: 390px;
+    background-color: burlywood;
+    border: 5px dotted yellow;
+    float: left;
+}
