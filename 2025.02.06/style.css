@@ -1,0 +1,27 @@
+header{
+    background-color: aqua;
+    width: 800px;
+    height: 200px;
+}
+main{
+    background-color: bisque;
+    width: 800px;
+    height: 800px;
+}
+.sekcja{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sekcja1{
+    background-color: burlywood;
+    height: 200px;
+}
+#sekcja2{
+    background-color: chartreuse;
+    height: 300px;
+}
+#sekcja3{
+    background-color: coral;
+    height: 250px;
+}
