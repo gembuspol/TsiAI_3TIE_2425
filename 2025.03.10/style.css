@@ -1,0 +1,42 @@
+body{
+    background-color: aqua;
+}
+#wszystko{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: fantasy;
+    background-color: beige;
+    padding: 1%;
+}
+header{
+    width: 96%;
+    padding: 2%;
+    background-color: burlywood;
+    text-align: center;
+    height: 150px;
+}
+aside{
+    width: 18%;
+    padding: 1%;
+    height: 400px;
+    background-color: cadetblue;
+    float: left;
+}
+main{
+    height: 400px;
+    background-color: chocolate;
+    padding: 1%;
+    width: 78%;
+    float: left;
+}
+footer{
+    height: 100px;
+    background-color: chartreuse;
+    text-align: center;
+    clear: both;
+}
+table,td,th{
+    border: 2px dotted darkblue;
+    border-collapse: collapse;
+}
