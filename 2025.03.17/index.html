@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabele</title>
+    <style>
+        table, td, th{
+            border-width: 5px;
+            border-style: double;
+            border-color: cornflowerblue;
+            /* border: 5px double cornflowerblue */
+            border-collapse: collapse;
+        }
+        .pionowo{
+            /* text-orientation: upright; */
+            writing-mode: vertical-lr;
+        }
+        .szeroko{
+            letter-spacing: 3px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Tabele cz. 2</h2>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="3">Nazwa</th>
+                    <th colspan="3">Połączenie</th>
+                </tr>
+                <tr>
+                    <th colspan="2" class="szeroko">Dane</th>
+                    <th rowspan="2" class="pionowo">liczba</th>
+                </tr>
+                <tr>
+                    <th>Imię</th>
+                    <th>Nazwisko</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>
+                        A dowolna
+                    </th>
+                    <td>Bartosz</td>
+                    <td>Kowalski</td>
+                    <td>777</td>
+                </tr>
+                <tr>
+                    <th>
+                        A dowolna
+                    </th>
+                    <td>Bartosz</td>
+                    <td>Kowalski</td>
+                    <td>777</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        Stronę wykonał Przemek.
+    </footer>
+</body>
+</html>
